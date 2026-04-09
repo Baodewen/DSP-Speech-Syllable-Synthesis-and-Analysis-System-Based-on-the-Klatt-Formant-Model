@@ -1,0 +1,10 @@
+﻿[project]
+name = "klatt-syn-python"
+version = "0.3.0"
+description = "Pure Python port of the klatt-syn formant synthesizer with a PyQt5 syllable panel and report dashboard"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt5>=5.15",
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+]

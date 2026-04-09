@@ -1,0 +1,1770 @@
+{
+  "sample_rate": 44100,
+  "default_crossfade_ms": 5,
+  "presets": [
+    {
+      "id": "a",
+      "label": "a",
+      "description": "Open front-like vowel.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.24,
+              "f0": 205,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -30,
+              "tilt_db": 4,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                730,
+                1090,
+                2440,
+                3400,
+                4200,
+                5000
+              ],
+              "oral_formant_bw": [
+                80,
+                90,
+                120,
+                200,
+                300,
+                400
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -26,
+              "cascade_aspiration_mod": 0.4,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -16,
+                -22,
+                -30,
+                -36
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "label": "i",
+      "description": "High front vowel.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.24,
+              "f0": 220,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.68,
+              "breathiness_db": -32,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                270,
+                2290,
+                3010,
+                3600,
+                4300,
+                5000
+              ],
+              "oral_formant_bw": [
+                60,
+                100,
+                120,
+                180,
+                260,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.35,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -13,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u",
+      "label": "u",
+      "description": "High back vowel.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.24,
+              "f0": 190,
+              "flutter_level": 0.18,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -30,
+              "tilt_db": 5,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                300,
+                870,
+                2240,
+                3200,
+                3900,
+                4700
+              ],
+              "oral_formant_bw": [
+                70,
+                90,
+                110,
+                180,
+                260,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.35,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -8,
+                -15,
+                -22,
+                -30,
+                -36
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "ai",
+      "description": "Diphthong gliding from /a/ toward /i/.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.065,
+              "f0": 210,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -30,
+              "tilt_db": 4,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                730,
+                1090,
+                2440,
+                3400,
+                4200,
+                5000
+              ],
+              "oral_formant_bw": [
+                80,
+                90,
+                120,
+                200,
+                300,
+                400
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.3,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -16,
+                -22,
+                -30,
+                -36
+              ]
+            },
+            {
+              "duration": 0.065,
+              "f0": 212,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -30,
+              "tilt_db": 4,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                580,
+                1450,
+                2580,
+                3450,
+                4220,
+                5000
+              ],
+              "oral_formant_bw": [
+                76,
+                92,
+                120,
+                190,
+                290,
+                390
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.3,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -15,
+                -21,
+                -29,
+                -35
+              ]
+            },
+            {
+              "duration": 0.065,
+              "f0": 216,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.68,
+              "breathiness_db": -31,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                420,
+                1880,
+                2790,
+                3520,
+                4260,
+                5000
+              ],
+              "oral_formant_bw": [
+                68,
+                96,
+                118,
+                185,
+                280,
+                380
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.28,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            },
+            {
+              "duration": 0.065,
+              "f0": 220,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.68,
+              "breathiness_db": -32,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                270,
+                2290,
+                3010,
+                3600,
+                4300,
+                5000
+              ],
+              "oral_formant_bw": [
+                60,
+                100,
+                120,
+                180,
+                260,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -30,
+              "cascade_aspiration_mod": 0.25,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -13,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ha",
+      "label": "ha",
+      "description": "Breathy onset followed by /a/.",
+      "segments": [
+        {
+          "glottal_source_type": "noise",
+          "frames": [
+            {
+              "duration": 0.07,
+              "f0": 180,
+              "flutter_level": 0,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -99,
+              "tilt_db": 7,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                700,
+                1200,
+                2400,
+                3300,
+                4100,
+                4900
+              ],
+              "oral_formant_bw": [
+                100,
+                120,
+                180,
+                220,
+                320,
+                420
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": -4,
+              "cascade_aspiration_db": -99,
+              "cascade_aspiration_mod": 0,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -99,
+              "parallel_aspiration_mod": 0,
+              "frication_db": -99,
+              "frication_mod": 0,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -8,
+                -16,
+                -22,
+                -30,
+                -36
+              ]
+            }
+          ]
+        },
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.22,
+              "f0": 205,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -30,
+              "tilt_db": 4,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                730,
+                1090,
+                2440,
+                3400,
+                4200,
+                5000
+              ],
+              "oral_formant_bw": [
+                80,
+                90,
+                120,
+                200,
+                300,
+                400
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -26,
+              "cascade_aspiration_mod": 0.4,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -16,
+                -22,
+                -30,
+                -36
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hi",
+      "label": "hi",
+      "description": "Breathy /h/ onset followed by an /ai/ glide.",
+      "segments": [
+        {
+          "glottal_source_type": "noise",
+          "frames": [
+            {
+              "duration": 0.07,
+              "f0": 190,
+              "flutter_level": 0,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -99,
+              "tilt_db": 8,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                420,
+                1900,
+                2800,
+                3500,
+                4300,
+                5000
+              ],
+              "oral_formant_bw": [
+                110,
+                130,
+                180,
+                230,
+                320,
+                420
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": -4,
+              "cascade_aspiration_db": -99,
+              "cascade_aspiration_mod": 0,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -99,
+              "parallel_aspiration_mod": 0,
+              "frication_db": -99,
+              "frication_mod": 0,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -8,
+                -15,
+                -21,
+                -29,
+                -35
+              ]
+            }
+          ]
+        },
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.06,
+              "f0": 210,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -30,
+              "tilt_db": 4,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                730,
+                1090,
+                2440,
+                3400,
+                4200,
+                5000
+              ],
+              "oral_formant_bw": [
+                80,
+                90,
+                120,
+                200,
+                300,
+                400
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.3,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -16,
+                -22,
+                -30,
+                -36
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 214,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -30,
+              "tilt_db": 4,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                560,
+                1500,
+                2600,
+                3450,
+                4220,
+                5000
+              ],
+              "oral_formant_bw": [
+                76,
+                92,
+                120,
+                190,
+                290,
+                390
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.3,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -15,
+                -21,
+                -29,
+                -35
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 218,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.68,
+              "breathiness_db": -31,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                400,
+                1900,
+                2800,
+                3520,
+                4260,
+                5000
+              ],
+              "oral_formant_bw": [
+                68,
+                96,
+                118,
+                185,
+                280,
+                380
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.28,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 222,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.68,
+              "breathiness_db": -32,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                270,
+                2290,
+                3010,
+                3600,
+                4300,
+                5000
+              ],
+              "oral_formant_bw": [
+                60,
+                100,
+                120,
+                180,
+                260,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -30,
+              "cascade_aspiration_mod": 0.25,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -13,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "label": "e",
+      "description": "Mid front vowel.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.23,
+              "f0": 210,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -30,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                530,
+                1840,
+                2480,
+                3380,
+                4200,
+                5000
+              ],
+              "oral_formant_bw": [
+                70,
+                90,
+                120,
+                180,
+                260,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o",
+      "label": "o",
+      "description": "Mid back rounded vowel.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.24,
+              "f0": 195,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -30,
+              "tilt_db": 5,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                500,
+                1000,
+                2400,
+                3300,
+                4000,
+                4800
+              ],
+              "oral_formant_bw": [
+                75,
+                95,
+                120,
+                190,
+                270,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ae",
+      "label": "ae",
+      "description": "Open front vowel.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.24,
+              "f0": 208,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -30,
+              "tilt_db": 4,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                660,
+                1720,
+                2410,
+                3300,
+                4100,
+                4950
+              ],
+              "oral_formant_bw": [
+                78,
+                92,
+                118,
+                190,
+                280,
+                380
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -28,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ei",
+      "label": "ei",
+      "description": "Diphthong gliding from /e/ toward /i/.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.06,
+              "f0": 210,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -31,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                530,
+                1840,
+                2480,
+                3380,
+                4200,
+                5000
+              ],
+              "oral_formant_bw": [
+                70,
+                90,
+                120,
+                180,
+                260,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 214,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -31,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                430,
+                1980,
+                2650,
+                3440,
+                4240,
+                5000
+              ],
+              "oral_formant_bw": [
+                68,
+                94,
+                118,
+                178,
+                255,
+                355
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 218,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -31,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                340,
+                2140,
+                2840,
+                3520,
+                4280,
+                5000
+              ],
+              "oral_formant_bw": [
+                64,
+                98,
+                118,
+                176,
+                252,
+                350
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 222,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -31,
+              "tilt_db": 3,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                270,
+                2290,
+                3010,
+                3600,
+                4300,
+                5000
+              ],
+              "oral_formant_bw": [
+                60,
+                100,
+                120,
+                180,
+                260,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ou",
+      "label": "ou",
+      "description": "Diphthong gliding from /o/ toward /u/.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.06,
+              "f0": 194,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -31,
+              "tilt_db": 5,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                500,
+                1000,
+                2400,
+                3300,
+                4000,
+                4800
+              ],
+              "oral_formant_bw": [
+                75,
+                95,
+                120,
+                190,
+                270,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 192,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -31,
+              "tilt_db": 5,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                430,
+                950,
+                2340,
+                3260,
+                3950,
+                4760
+              ],
+              "oral_formant_bw": [
+                73,
+                92,
+                116,
+                186,
+                266,
+                356
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 190,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -31,
+              "tilt_db": 5,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                360,
+                910,
+                2290,
+                3230,
+                3920,
+                4730
+              ],
+              "oral_formant_bw": [
+                72,
+                90,
+                113,
+                183,
+                263,
+                352
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            },
+            {
+              "duration": 0.06,
+              "f0": 188,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -31,
+              "tilt_db": 5,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                300,
+                870,
+                2240,
+                3200,
+                3900,
+                4700
+              ],
+              "oral_formant_bw": [
+                70,
+                90,
+                110,
+                180,
+                260,
+                360
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -29,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "label": "h",
+      "description": "Breathy glottal fricative.",
+      "segments": [
+        {
+          "glottal_source_type": "noise",
+          "frames": [
+            {
+              "duration": 0.07,
+              "f0": 180,
+              "flutter_level": 0,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -99,
+              "tilt_db": 8,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                500,
+                1600,
+                2600,
+                3500,
+                4300,
+                5000
+              ],
+              "oral_formant_bw": [
+                110,
+                130,
+                180,
+                230,
+                320,
+                420
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": -4,
+              "cascade_aspiration_db": -99,
+              "cascade_aspiration_mod": 0,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -99,
+              "parallel_aspiration_mod": 0,
+              "frication_db": -99,
+              "frication_mod": 0,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -8,
+                -15,
+                -21,
+                -29,
+                -35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "label": "s",
+      "description": "Voiceless alveolar fricative.",
+      "segments": [
+        {
+          "glottal_source_type": "noise",
+          "frames": [
+            {
+              "duration": 0.09,
+              "f0": 180,
+              "flutter_level": 0,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -99,
+              "tilt_db": 10,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                350,
+                3200,
+                4500,
+                5200,
+                6000,
+                7000
+              ],
+              "oral_formant_bw": [
+                110,
+                180,
+                220,
+                260,
+                360,
+                460
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": -4,
+              "cascade_aspiration_db": -99,
+              "cascade_aspiration_mod": 0,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -99,
+              "parallel_aspiration_mod": 0,
+              "frication_db": -99,
+              "frication_mod": 0,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -8,
+                -15,
+                -21,
+                -29,
+                -35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sh",
+      "label": "sh",
+      "description": "Voiceless postalveolar fricative.",
+      "segments": [
+        {
+          "glottal_source_type": "noise",
+          "frames": [
+            {
+              "duration": 0.09,
+              "f0": 180,
+              "flutter_level": 0,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -99,
+              "tilt_db": 9,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                300,
+                2200,
+                3200,
+                4200,
+                5200,
+                6200
+              ],
+              "oral_formant_bw": [
+                120,
+                170,
+                220,
+                260,
+                360,
+                460
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": -4,
+              "cascade_aspiration_db": -99,
+              "cascade_aspiration_mod": 0,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -99,
+              "parallel_aspiration_mod": 0,
+              "frication_db": -99,
+              "frication_mod": 0,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -8,
+                -15,
+                -21,
+                -29,
+                -35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "label": "f",
+      "description": "Voiceless labiodental fricative.",
+      "segments": [
+        {
+          "glottal_source_type": "noise",
+          "frames": [
+            {
+              "duration": 0.085,
+              "f0": 180,
+              "flutter_level": 0,
+              "open_phase_ratio": 0.7,
+              "breathiness_db": -99,
+              "tilt_db": 8,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": null,
+              "nasal_formant_bw": null,
+              "oral_formant_freq": [
+                800,
+                1600,
+                2600,
+                3600,
+                4600,
+                5600
+              ],
+              "oral_formant_bw": [
+                130,
+                170,
+                210,
+                260,
+                360,
+                460
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": -4,
+              "cascade_aspiration_db": -99,
+              "cascade_aspiration_mod": 0,
+              "nasal_antiformant_freq": null,
+              "nasal_antiformant_bw": null,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -99,
+              "parallel_aspiration_mod": 0,
+              "frication_db": -99,
+              "frication_mod": 0,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -8,
+                -15,
+                -21,
+                -29,
+                -35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "label": "m",
+      "description": "Voiced bilabial nasal.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.11,
+              "f0": 185,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -34,
+              "tilt_db": 5,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": 280,
+              "nasal_formant_bw": 90,
+              "oral_formant_freq": [
+                500,
+                1400,
+                2300,
+                3200,
+                4000,
+                4800
+              ],
+              "oral_formant_bw": [
+                90,
+                120,
+                150,
+                220,
+                300,
+                380
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -34,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": 750,
+              "nasal_antiformant_bw": 120,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n",
+      "label": "n",
+      "description": "Voiced alveolar nasal.",
+      "segments": [
+        {
+          "glottal_source_type": "impulsive",
+          "frames": [
+            {
+              "duration": 0.11,
+              "f0": 190,
+              "flutter_level": 0.2,
+              "open_phase_ratio": 0.69,
+              "breathiness_db": -34,
+              "tilt_db": 5,
+              "gain_db": null,
+              "agc_rms_level": 0.18,
+              "nasal_formant_freq": 300,
+              "nasal_formant_bw": 95,
+              "oral_formant_freq": [
+                420,
+                1700,
+                2600,
+                3400,
+                4200,
+                5000
+              ],
+              "oral_formant_bw": [
+                90,
+                120,
+                150,
+                220,
+                300,
+                380
+              ],
+              "cascade_enabled": true,
+              "cascade_voicing_db": 0,
+              "cascade_aspiration_db": -34,
+              "cascade_aspiration_mod": 0.32,
+              "nasal_antiformant_freq": 1450,
+              "nasal_antiformant_bw": 160,
+              "parallel_enabled": false,
+              "parallel_voicing_db": 0,
+              "parallel_aspiration_db": -25,
+              "parallel_aspiration_mod": 0.5,
+              "frication_db": -30,
+              "frication_mod": 0.5,
+              "parallel_bypass_db": -99,
+              "nasal_formant_db": null,
+              "oral_formant_db": [
+                0,
+                -7,
+                -14,
+                -20,
+                -28,
+                -34
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
