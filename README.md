@@ -167,23 +167,6 @@ This project is especially suitable for coursework involving:
 - time-frequency analysis of speech-like signals
 - practical GUI-based DSP experimentation
 
-## Reports
-
-Two course-oriented Markdown reports are included in [reports](reports/):
-
-- `DSP课程_技术报告.md`: engineering architecture, implementation, testing, and system design
-- `DSP课程_研究报告.md`: research motivation, theoretical basis, experiment design, and analysis ideas
-
-## Why This Project Matters
-
-Most modern speech systems are powerful but difficult to explain in a classroom setting. This project focuses on the opposite goal:
-
-- **high interpretability**
-- **explicit acoustic parameters**
-- **direct connection to DSP theory**
-- **easy export of figures for documentation**
-
-That makes it a strong fit for **DSP coursework, technical presentations, and reproducible speech experiments**.
 
 ## Acknowledgment
 
